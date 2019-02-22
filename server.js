@@ -4,10 +4,9 @@ const path = require("path");
 const router = express.Router();
 const app = express();
 
-//directory for static files
 app.use(express.static('public'));
 
-//routing
+
 app.use(require('./app/routing/htmlRoutes.js'));
 app.use(require('./app/routing/apiRoutes.js'));
 
