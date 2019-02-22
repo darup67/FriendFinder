@@ -2,14 +2,13 @@
 <html>
 
 <head>
-    <!-- <meta charset="utf-8" /> -->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Friend Finder Survey</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
-    <!-- <script src="./js/materialize.js"></script> -->
+
     <style>
         li {
             margin-bottom: 3%;
@@ -203,10 +202,10 @@
         <a href="https://github.com/darup67/FriendFinder">GitHub Repo</a>
     </div>
 
-    <!--modal that pops up when the survey is completed -->
+
     <div id="modal1" class="modal">
         <div class="modal-content">
-            <h4 id="friendName">Your chosen friend</h4>
+            <h4 id="friendName">Your friend match</h4>
             <img id="friendImg" src="" alt="">
         </div>
         <div class="modal-footer">
@@ -214,19 +213,15 @@
         </div>
     </div>
 </body>
-<!--jQuery CDN link-->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<!--Materialize CDN link-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script>
     $(document).ready(function() {
-        //init for Materialize functionality
         $('select').formSelect();
         $('.modal').modal();
-        //runs when finish button is clicked
         $('#finish').on("click", function(event) {
             event.preventDefault();
-            //checks to make sure all input fields and choices are completed
+
             function completedForm() {
                 let filledOut = true;
                 $(".surveyElem").each(function() {
@@ -236,29 +231,25 @@
                 });
                 return filledOut;
             }
-            //only runs if form is complete
+
             if (completedForm()) {
-                //pulls name and url inputs
                 let name = $('#userName').val();
                 let imageURL = $('#imageURL').val();
                 let scores = [];
-                //pulls answers for questions
                 for (let i = 1; i < 11; i++) {
                     let choice = $(`#q${i}`).val();
                     scores.push(choice);
                 }
-                //object to be pushed to api json object
                 let newUser = {
                     name: name,
                     image: imageURL,
                     scores: scores
                 }
                 console.log(newUser);
-                //post request
+
                 function addUser() {
                     $.post("/api/friends", newUser)
                         .done(function(data) {
-                            //populates picture and name
                             $('#friendName').text(`Your chosen friend is ${data.friendName}! Hooray!!`);
                             $('#friendImg').attr("src", `${data.friendImg}`);
                             $('#modal1').modal('open');
@@ -267,12 +258,11 @@
                 addUser(newUser);
 
             } else {
-                alert("Please fill out all fields and answer all questions!")
+                alert("Please answer all questions!")
             };
         });
     });
 </script>
-<!-- <script src="js/script.js"></script> -->
 
 
 </html>

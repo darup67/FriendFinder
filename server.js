@@ -10,14 +10,13 @@ app.use(express.static('public'));
 app.use(require('./app/routing/htmlRoutes.js'));
 app.use(require('./app/routing/apiRoutes.js'));
 
-//port declaration
+
 var PORT = process.env.PORT || 3000;
 
-//body-parser config
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-//app express listener
 app.listen(PORT, function() {
     console.log(`App listening on port ${PORT}`);
 });
