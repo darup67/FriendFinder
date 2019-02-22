@@ -1,6 +1,6 @@
 {
     "surveyResults": [{
-            "name": "Chris",
+            "name": "Bart",
             "image": "https://avatars2.githubusercontent.com/u/32533644?s=460&v=4",
             "scores": [
                 5,
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "name": "Diana",
+            "name": "Goku",
             "image": "https://media.licdn.com/dms/image/C4E03AQFudpDvAx7NVA/profile-displayphoto-shrink_800_800/0?e=1531353600&v=beta&t=IAZUTmY2xdV0NR_sG4CvHT5ADHOAL9JCllwDQCbiZu8",
             "scores": [
                 4,
@@ -32,7 +32,7 @@
             ]
         },
         {
-            "name": "Eric Cartman",
+            "name": "Tony the Tiger",
             "image": "http://3.images.southparkstudios.com/blogs/southparkstudios.com/files/2014/06/0602-cartman-phone1.jpg?quality=0.8",
             "scores": [
                 3,
