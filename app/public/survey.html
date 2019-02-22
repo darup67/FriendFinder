@@ -11,7 +11,7 @@
 
     <style>
         li {
-            margin-bottom: 3%;
+            margin-bottom: 5%;
         }
         
         #friendImg {
@@ -22,18 +22,19 @@
 
 <body>
     <div class="container">
-        <div id="jumbotron" style="height: 35vh" class="row valign-wrapper light-blue lighten-5 z-depth-2">
+        <div id="jumbotron" style="height: 35vh" class="row valign-wrapper dark-blue darken-5 z-depth-2">
             <div class="row center-block">
                 <h1 class="center-align">
-                    <i style="font-size: 100%" class="material-icons">mood</i>
                     <span style="font-variant: small-caps"> Friend Finder </span>
                 </h1>
                 <hr>
                 <h5 class="center-align">Survey Questions</h5>
                 <div class="row center-align">
                     <br>
-                    <a href="/" class="z-depth-4 waves-effect waves-light btn">
+                    <a href="./home.html" class="z-depth-4 waves-effect waves-dark btn">
                         <i class="material-icons left">home</i>Home</a>
+
+
                     <br>
                 </div>
             </div>
@@ -55,11 +56,11 @@
 
             </div>
             <div class="row">
-                <h6>These questions are designed to match your personality with someone you haven't met yet! Answer truthfully for the best results!</h6>
+                <h6>Answer all questions truthfully to find the best match!</h6>
                 <br>
                 <hr>
                 <ol>
-                    <li class="col s10">I would describe myself as a cat person.
+                    <li class="col s10">I would describe myself as extrovert
                         <div class="input-field col s12">
                             <select class="surveyElem" id="q1">
                                 <option value="" disabled selected>Choose your option</option>
@@ -72,7 +73,7 @@
                         </div>
                     </li>
                     <li class="col s10">
-                        I like to unwind with a trip up to the mountains.
+                        I love watching movies
                         <div class="input-field col s12">
                             <select class="surveyElem" id="q2">
                                 <option value="" disabled selected>Choose your option</option>
@@ -85,7 +86,7 @@
                         </div>
                     </li>
                     <li class="col s10">
-                        I would describe myself as a happy-go-lucky person.
+                        I think of myself as very sociable, and "down to earth".
                         <div class="input-field col s12">
                             <select class="surveyElem" id="q3">
                                 <option value="" disabled selected>Choose your option</option>
@@ -98,7 +99,7 @@
                         </div>
                     </li>
                     <li class="col s10">
-                        My ideal evening would be a night on the town, getting some drinks and staying out into the wee hours of the night.
+                        I like to eat out, go out and enjoy myself.
                         <div class="input-field col s12">
                             <select class="surveyElem" id="q4">
                                 <option value="" disabled selected>Choose your option</option>
@@ -111,7 +112,7 @@
                         </div>
                     </li>
                     <li class="col s10">
-                        I see myself as a family-oriented person.
+                        I rather stay in than go out.
                         <div class="input-field col s12">
                             <select class="surveyElem" id="q5">
                                 <option value="" disabled selected>Choose your option</option>
@@ -124,7 +125,7 @@
                         </div>
                     </li>
                     <li class="col s10">
-                        If I go on a vacation, I want to go on an adventure and experience something new.
+                        I get along with strangers
                         <div class="input-field col s12">
                             <select class="surveyElem" id="q6">
                                 <option value="" disabled selected>Choose your option</option>
@@ -137,7 +138,7 @@
                         </div>
                     </li>
                     <li class="col s10">
-                        I prefer fiction over non-fiction, in any medium.
+                        I like video-games.
                         <div class="input-field col s12">
                             <select class="surveyElem" id="q7">
                                 <option value="" disabled selected>Choose your option</option>
@@ -190,7 +191,6 @@
                     </li>
                 </ol>
                 <button class="btn waves-effect waves-light" id="finish" type="submit" name="action">Find My Friend!
-                    <i class="material-icons right">send</i>
                 </button>
 
             </div>
