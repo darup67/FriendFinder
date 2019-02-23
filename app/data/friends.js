@@ -1,7 +1,7 @@
 {
     "surveyResults": [{
             "name": "Bart",
-            "image": "https://avatars2.githubusercontent.com/u/32533644?s=460&v=4",
+            "image": "http://faculty.virginia.edu/zanglab/bart/IMG_1651.png",
             "scores": [
                 5,
                 5,
@@ -17,7 +17,7 @@
         },
         {
             "name": "Goku",
-            "image": "https://media.licdn.com/dms/image/C4E03AQFudpDvAx7NVA/profile-displayphoto-shrink_800_800/0?e=1531353600&v=beta&t=IAZUTmY2xdV0NR_sG4CvHT5ADHOAL9JCllwDQCbiZu8",
+            "image": "https://www.wikihow.com/images/1/13/Draw-Goku-Step-33.jpg",
             "scores": [
                 4,
                 4,
@@ -33,7 +33,7 @@
         },
         {
             "name": "Tony the Tiger",
-            "image": "http://3.images.southparkstudios.com/blogs/southparkstudios.com/files/2014/06/0602-cartman-phone1.jpg?quality=0.8",
+            "image": "https://www.pinknews.co.uk/images/2017/10/tony-the-tiger-sq.jpg",
             "scores": [
                 3,
                 2,
@@ -49,7 +49,7 @@
         },
         {
             "name": "Ned Flanders",
-            "image": "http://www.simpsonsforever.com/images/episodes/characters/15.jpg",
+            "image": "https://www.pinknews.co.uk/images/2017/10/tony-the-tiger-sq.jpg",
             "scores": [
                 1,
                 3,
