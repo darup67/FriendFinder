@@ -48,8 +48,8 @@
             ]
         },
         {
-            "name": "Ned Flanders",
-            "image": "https://www.pinknews.co.uk/images/2017/10/tony-the-tiger-sq.jpg",
+            "name": "Captain America",
+            "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F05%2Fcaptain-america-shield-smithsonian-museum-001.jpg?q=75&w=800&cbr=1&fit=max",
             "scores": [
                 1,
                 3,
@@ -64,8 +64,8 @@
             ]
         },
         {
-            "name": "Groundskeeper Willie",
-            "image": "https://vignette.wikia.nocookie.net/simpsons/images/4/47/Hokuto_no_willie.jpg/revision/latest?cb=20110215003415",
+            "name": "Batman",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpH1TUcFOAKI7jwmNWElwcH18DXIwvn1zPM7iwK30cLqv2CxAm",
             "scores": [
                 1,
                 3,
@@ -80,8 +80,8 @@
             ]
         },
         {
-            "name": "Shane",
-            "image": "http://photo.sydex.net/210238753.jpg",
+            "name": "Demiurge",
+            "image": "https://i2.wp.com/masterthyself.com/wp-content/uploads/2018/12/demiurge-art-em.jpg?fit=1920%2C1080&ssl=1",
             "scores": [
                 "4",
                 "4",
@@ -96,8 +96,8 @@
             ]
         },
         {
-            "name": "Rob",
-            "image": "https://gfnc1kn6pi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/goldie.jpg",
+            "name": "Luke Skywalker",
+            "image": "https://assets1.ignimgs.com/2018/02/21/lukeskywalker-1519252298974_1280w.jpg",
             "scores": [
                 "5",
                 "5",
@@ -112,8 +112,8 @@
             ]
         },
         {
-            "name": "Jace",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Lulu_-_A_typical_Maine_Coon_cat.jpg/220px-Lulu_-_A_typical_Maine_Coon_cat.jpg",
+            "name": "Superman",
+            "image": "https://i.kinja-img.com/gawker-media/image/upload/s--Q_RyW1gk--/c_scale,f_auto,fl_progressive,q_80,w_800/endahrasa3dxot980mjf.png",
             "scores": [
                 "5",
                 "1",
@@ -128,8 +128,8 @@
             ]
         },
         {
-            "name": "Queen",
-            "image": "https://articlebio.com/uploads/bio/2017/03/18/queen-latifah.jpg",
+            "name": "2 Chainz",
+            "image": "https://media.pitchfork.com/photos/5940a78ecedefe040e9f31c7/2:1/w_790/GettyImages-695511318.jpg",
             "scores": [
                 "1",
                 "1",
@@ -144,8 +144,8 @@
             ]
         },
         {
-            "name": "Bruce Wayne",
-            "image": "https://cnet3.cbsistatic.com/img/8AMF9wBIvV9inPxAcmaTuAXgh5o=/2013/01/02/6ce11462-fdb6-11e2-8c7c-d4ae52e62bcc/brucewayne.jpg",
+            "name": "21 Savage",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThJBvHupIwgI0sjcZf0kJaqWdDnajaKZzsfLkwRN79OSYvkCpX",
             "scores": [
                 "2",
                 "3",
