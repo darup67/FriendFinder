@@ -18,6 +18,20 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
  Heroku Deployment 
  
  Node.js, Express, Path
-
+ 
+ # Homepage
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Homepageff.png)
+ 
+ 
+ # Questions
+ 
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Questions1.png)
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Questions2.png)
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Questions3.png)
+ 
 
 
