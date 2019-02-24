@@ -2,8 +2,8 @@
 
 ![FB](https://github.com/darup67/FriendFinder/blob/master/img/fblogo.png)
 
-FriendFinder
-Northwestern Coding Bootcamp Spring 2018 Homework Assignment Week13: Express and Node.js
+# FriendFinder
+
 
 https://young-hamlet-33867.herokuapp.com/
 
