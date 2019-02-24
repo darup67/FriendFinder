@@ -7,9 +7,9 @@
 
 https://young-hamlet-33867.herokuapp.com/
 
-Overview
+# Overview
 
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+An application to find friends most closely related to answers to questions in a survey!
  
 # Technologies Used:
  
@@ -18,6 +18,23 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
  Heroku Deployment 
  
  Node.js, Express, Path
-
+ 
+ # Homepage
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Homepageff.png)
+ 
+ 
+ # Questions
+ 
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Questions3.png)
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Questions2.png)
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/Questions1.png)
+ 
+ ![Homepage](https://github.com/darup67/FriendFinder/blob/master/img/q3.png)
+ 
+ 
 
 
