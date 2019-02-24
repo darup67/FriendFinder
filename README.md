@@ -1,4 +1,4 @@
-# FriendFinder App
+# FriendFinder App :heavy_plus_sign:
 
 ![FB](https://github.com/darup67/FriendFinder/blob/master/img/fblogo.png)
 
@@ -13,11 +13,11 @@ An application to find friends most closely related to answers to questions aske
  
 # Technologies Used:
  
- HTML/CSS/Javascript/JQuery/Bootstrap
+:ballot_box_with_check:HTML/CSS/Javascript/JQuery/Bootstrap
  
- Heroku Deployment 
+ :ballot_box_with_check: Deployment 
  
- Node.js, Express, Path
+ :ballot_box_with_check:.js, Express, Path
  
  # Homepage
  
