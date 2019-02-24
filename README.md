@@ -9,7 +9,7 @@ https://young-hamlet-33867.herokuapp.com/
 
 # Overview
 
-An application to find friends most closely related to answers to questions in a survey!
+An application to find friends most closely related to answers to questions asked in a survey!
  
 # Technologies Used:
  
