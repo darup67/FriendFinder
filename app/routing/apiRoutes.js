@@ -1,5 +1,5 @@
 const server = require('../../server');
-const users = require('../../app/data/friends');
+const users = require('../../app/data/friends.json');
 const express = require("express");
 const router = express.Router();
 const bodyParser = require("body-parser");
